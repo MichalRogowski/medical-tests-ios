@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82821DB226DAA6D2001DA227 /* Autism_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */; };
+		82821DB426DAA6D2001DA227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DB326DAA6D2001DA227 /* ContentView.swift */; };
+		82821DB626DAA6D3001DA227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82821DB526DAA6D3001DA227 /* Assets.xcassets */; };
+		82821DB926DAA6D3001DA227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82821DB826DAA6D3001DA227 /* Preview Assets.xcassets */; };
+		82821DBB26DAA6D3001DA227 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DBA26DAA6D3001DA227 /* Persistence.swift */; };
+		82821DBE26DAA6D3001DA227 /* Autism_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82821DBC26DAA6D3001DA227 /* Autism_Test.xcdatamodeld */; };
+		82821DC926DAA6D3001DA227 /* Autism_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DC826DAA6D3001DA227 /* Autism_TestTests.swift */; };
+		82821DD426DAA6D3001DA227 /* Autism_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DD326DAA6D3001DA227 /* Autism_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82821DC526DAA6D3001DA227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82821DA626DAA6D2001DA227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82821DAD26DAA6D2001DA227;
+			remoteInfo = "Autism Test";
+		};
+		82821DD026DAA6D3001DA227 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82821DA626DAA6D2001DA227 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82821DAD26DAA6D2001DA227;
+			remoteInfo = "Autism Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82821DAE26DAA6D2001DA227 /* Autism Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_TestApp.swift; sourceTree = "<group>"; };
+		82821DB326DAA6D2001DA227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		82821DB526DAA6D3001DA227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82821DB826DAA6D3001DA227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		82821DBA26DAA6D3001DA227 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		82821DBD26DAA6D3001DA227 /* Autism_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Autism_Test.xcdatamodel; sourceTree = "<group>"; };
+		82821DBF26DAA6D3001DA227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82821DC426DAA6D3001DA227 /* Autism TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autism TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82821DC826DAA6D3001DA227 /* Autism_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_TestTests.swift; sourceTree = "<group>"; };
+		82821DCA26DAA6D3001DA227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82821DCF26DAA6D3001DA227 /* Autism TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autism TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82821DD326DAA6D3001DA227 /* Autism_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_TestUITests.swift; sourceTree = "<group>"; };
+		82821DD526DAA6D3001DA227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82821DAB26DAA6D2001DA227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82821DC126DAA6D3001DA227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82821DCC26DAA6D3001DA227 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82821DA526DAA6D2001DA227 = {
+			isa = PBXGroup;
+			children = (
+				82821DB026DAA6D2001DA227 /* Autism Test */,
+				82821DC726DAA6D3001DA227 /* Autism TestTests */,
+				82821DD226DAA6D3001DA227 /* Autism TestUITests */,
+				82821DAF26DAA6D2001DA227 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82821DAF26DAA6D2001DA227 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82821DAE26DAA6D2001DA227 /* Autism Test.app */,
+				82821DC426DAA6D3001DA227 /* Autism TestTests.xctest */,
+				82821DCF26DAA6D3001DA227 /* Autism TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82821DB026DAA6D2001DA227 /* Autism Test */ = {
+			isa = PBXGroup;
+			children = (
+				82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */,
+				82821DB326DAA6D2001DA227 /* ContentView.swift */,
+				82821DB526DAA6D3001DA227 /* Assets.xcassets */,
+				82821DBA26DAA6D3001DA227 /* Persistence.swift */,
+				82821DBF26DAA6D3001DA227 /* Info.plist */,
+				82821DBC26DAA6D3001DA227 /* Autism_Test.xcdatamodeld */,
+				82821DB726DAA6D3001DA227 /* Preview Content */,
+			);
+			path = "Autism Test";
+			sourceTree = "<group>";
+		};
+		82821DB726DAA6D3001DA227 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				82821DB826DAA6D3001DA227 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		82821DC726DAA6D3001DA227 /* Autism TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				82821DC826DAA6D3001DA227 /* Autism_TestTests.swift */,
+				82821DCA26DAA6D3001DA227 /* Info.plist */,
+			);
+			path = "Autism TestTests";
+			sourceTree = "<group>";
+		};
+		82821DD226DAA6D3001DA227 /* Autism TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82821DD326DAA6D3001DA227 /* Autism_TestUITests.swift */,
+				82821DD526DAA6D3001DA227 /* Info.plist */,
+			);
+			path = "Autism TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82821DAD26DAA6D2001DA227 /* Autism Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82821DD826DAA6D3001DA227 /* Build configuration list for PBXNativeTarget "Autism Test" */;
+			buildPhases = (
+				82821DAA26DAA6D2001DA227 /* Sources */,
+				82821DAB26DAA6D2001DA227 /* Frameworks */,
+				82821DAC26DAA6D2001DA227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Autism Test";
+			productName = "Autism Test";
+			productReference = 82821DAE26DAA6D2001DA227 /* Autism Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82821DC326DAA6D3001DA227 /* Autism TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82821DDB26DAA6D3001DA227 /* Build configuration list for PBXNativeTarget "Autism TestTests" */;
+			buildPhases = (
+				82821DC026DAA6D3001DA227 /* Sources */,
+				82821DC126DAA6D3001DA227 /* Frameworks */,
+				82821DC226DAA6D3001DA227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82821DC626DAA6D3001DA227 /* PBXTargetDependency */,
+			);
+			name = "Autism TestTests";
+			productName = "Autism TestTests";
+			productReference = 82821DC426DAA6D3001DA227 /* Autism TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82821DCE26DAA6D3001DA227 /* Autism TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82821DDE26DAA6D3001DA227 /* Build configuration list for PBXNativeTarget "Autism TestUITests" */;
+			buildPhases = (
+				82821DCB26DAA6D3001DA227 /* Sources */,
+				82821DCC26DAA6D3001DA227 /* Frameworks */,
+				82821DCD26DAA6D3001DA227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82821DD126DAA6D3001DA227 /* PBXTargetDependency */,
+			);
+			name = "Autism TestUITests";
+			productName = "Autism TestUITests";
+			productReference = 82821DCF26DAA6D3001DA227 /* Autism TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82821DA626DAA6D2001DA227 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					82821DAD26DAA6D2001DA227 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					82821DC326DAA6D3001DA227 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 82821DAD26DAA6D2001DA227;
+					};
+					82821DCE26DAA6D3001DA227 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 82821DAD26DAA6D2001DA227;
+					};
+				};
+			};
+			buildConfigurationList = 82821DA926DAA6D2001DA227 /* Build configuration list for PBXProject "Autism Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82821DA526DAA6D2001DA227;
+			productRefGroup = 82821DAF26DAA6D2001DA227 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82821DAD26DAA6D2001DA227 /* Autism Test */,
+				82821DC326DAA6D3001DA227 /* Autism TestTests */,
+				82821DCE26DAA6D3001DA227 /* Autism TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82821DAC26DAA6D2001DA227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82821DB926DAA6D3001DA227 /* Preview Assets.xcassets in Resources */,
+				82821DB626DAA6D3001DA227 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82821DC226DAA6D3001DA227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82821DCD26DAA6D3001DA227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82821DAA26DAA6D2001DA227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82821DBB26DAA6D3001DA227 /* Persistence.swift in Sources */,
+				82821DB426DAA6D2001DA227 /* ContentView.swift in Sources */,
+				82821DBE26DAA6D3001DA227 /* Autism_Test.xcdatamodeld in Sources */,
+				82821DB226DAA6D2001DA227 /* Autism_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82821DC026DAA6D3001DA227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82821DC926DAA6D3001DA227 /* Autism_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82821DCB26DAA6D3001DA227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82821DD426DAA6D3001DA227 /* Autism_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82821DC626DAA6D3001DA227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82821DAD26DAA6D2001DA227 /* Autism Test */;
+			targetProxy = 82821DC526DAA6D3001DA227 /* PBXContainerItemProxy */;
+		};
+		82821DD126DAA6D3001DA227 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82821DAD26DAA6D2001DA227 /* Autism Test */;
+			targetProxy = 82821DD026DAA6D3001DA227 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82821DD626DAA6D3001DA227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82821DD726DAA6D3001DA227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82821DD926DAA6D3001DA227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Autism Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Autism Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82821DDA26DAA6D3001DA227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Autism Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Autism Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82821DDC26DAA6D3001DA227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
+				INFOPLIST_FILE = "Autism TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autism Test.app/Autism Test";
+			};
+			name = Debug;
+		};
+		82821DDD26DAA6D3001DA227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
+				INFOPLIST_FILE = "Autism TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autism Test.app/Autism Test";
+			};
+			name = Release;
+		};
+		82821DDF26DAA6D3001DA227 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
+				INFOPLIST_FILE = "Autism TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autism Test";
+			};
+			name = Debug;
+		};
+		82821DE026DAA6D3001DA227 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
+				INFOPLIST_FILE = "Autism TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Autism Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82821DA926DAA6D2001DA227 /* Build configuration list for PBXProject "Autism Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82821DD626DAA6D3001DA227 /* Debug */,
+				82821DD726DAA6D3001DA227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82821DD826DAA6D3001DA227 /* Build configuration list for PBXNativeTarget "Autism Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82821DD926DAA6D3001DA227 /* Debug */,
+				82821DDA26DAA6D3001DA227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82821DDB26DAA6D3001DA227 /* Build configuration list for PBXNativeTarget "Autism TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82821DDC26DAA6D3001DA227 /* Debug */,
+				82821DDD26DAA6D3001DA227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82821DDE26DAA6D3001DA227 /* Build configuration list for PBXNativeTarget "Autism TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82821DDF26DAA6D3001DA227 /* Debug */,
+				82821DE026DAA6D3001DA227 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		82821DBC26DAA6D3001DA227 /* Autism_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				82821DBD26DAA6D3001DA227 /* Autism_Test.xcdatamodel */,
+			);
+			currentVersion = 82821DBD26DAA6D3001DA227 /* Autism_Test.xcdatamodel */;
+			path = Autism_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 82821DA626DAA6D2001DA227 /* Project object */;
+}
