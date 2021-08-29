@@ -1,0 +1,1618 @@
+[
+  {
+    "title": "Autism Spectrum Disorders",
+    "id": "a116e2d6-d15f-4303-8762-bad8d7821fa3",
+    "tests": [
+      {
+        "title": "Symptoms of Autism Spectrum Disorders - Adult",
+        "subtitle": "The Autism Spectrum Quotient for Adults is a 50-question self-report instrument designed to screen ages 16 years and older for symptoms of autism. A scoring key is also included. This instrument comes from the United Kingdom, where age 16 years is more readily considered an adult.",
+        "scoringKey": "Responses that score 1 point are marked. Other responses score 0. For total score, sum all items. Minimum score possible is 0, Maximum score possible is 50. A score of 32 or above is highly predictive of Autism Spectrum disorders in adults.",
+        "cutOff": 32,
+        "order": 0,
+        "id":"f2833c04-08e9-49d8-a09b-9bae4f6c9020",
+        "questions": [
+          {
+            "title": "I prefer to do things with others rather than on my own.",
+            "type": "attitude",
+            "order": 0,
+            "id": "c90790cb-0cdf-4813-a52e-8e3545e6add8",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "1bd8b8ae-aa59-492a-9ffb-d04025690e2d",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "fa41371e-87c4-4333-9ce1-f5e30e9e3295",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "50c7cc96-ea35-4f5a-bd97-851ff48327a7",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "4c650fce-03ed-4302-b37b-c26af4cac4a4",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I prefer to do things the same way over and over again",
+            "type": "attitude",
+            "order": 1,
+            "id": "bef5146b-f465-45d8-be26-0cc028659c0a",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "9e6ca909-578d-43b7-af90-e7aff49e115f",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "333e5fb7-8893-4ff0-830a-0e65d87eaed4",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "2594eab6-e419-4605-987e-660a752d4d7c",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "23bedc29-64f3-4380-b332-8569229dc29b",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "If I try to imagine something, I find it very easy to create a picture in my mind.",
+            "type": "attitude",
+            "order": 2,
+            "id": "bb083358-c3ad-45f6-866e-4bf885df7e26",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "7d48295f-2e64-4339-bb3f-16dfc2c321dd",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "bedea1f6-2db6-4efb-92a8-47922ac04344",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "ff2d6a57-2587-44c0-bfd1-4c101fb3785c",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "6b6afa71-6f0a-4a1b-aa1b-c1b18c70106d",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I frequently get so strongly absorbed in one thing that I lose sight of other things.",
+            "type": "attitude",
+            "order": 3,
+            "id": "f4c746ac-7979-41c6-8e91-130d5891d8ce",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "2dd557d7-c450-4e3d-9c49-77c78fd51bb6",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "fa1f26a4-e124-4c9b-8e46-f74f667ea8cb",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "7b79341a-7899-4092-82b1-d5077bdb906d",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "26f242ed-af07-452e-8468-409c31d1136b",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I often notice small sounds when others do not.",
+            "type": "attitude",
+            "order": 4,
+            "id": "950a7807-2fdf-41f7-9ba9-63e05ad757a1",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "875ea4dc-b279-4c58-8e80-0e7526d907f9",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "058ba370-ccd7-468d-bc1d-da992f5a5624",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "27932ca4-aa3e-48f4-864a-583cd56fc269",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "bc6157a6-626d-4f8b-ae85-ed16391701dc",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I usually notice car number plates or similar strings of information.",
+            "type": "attitude",
+            "order": 5,
+            "id": "effdf653-8e3b-4dd6-8c78-86c57cc7440d",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "a87c0c46-5caf-4f83-95e9-c690260ed0fa",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "bfa94c18-ba7e-4002-b090-c0610df137a2",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "35696a95-fcf6-4d6b-b358-c27832d36a66",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "01d552be-7235-44db-a2cf-83cbcce36ad4",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "Other people frequently tell me that what I’ve said is impolite, even though I think it is polite.",
+            "type": "attitude",
+            "order": 6,
+            "id": "1ffcd379-8190-4c5d-b0b0-6a0bb950681a",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "9a5033ee-567d-4acd-80e8-7e385adb4d85",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "d7557f8c-15fd-4480-9b38-48aa86c24915",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "b9608463-a88d-419e-9ed2-fcecd6fc853c",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "ff7cecd6-4b1e-4534-8ea3-523c6ae96ae1",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "When I’m reading a story, I can easily imagine what the characters might look like.",
+            "type": "attitude",
+            "order": 7,
+            "id": "c596f0b1-3195-4fee-bee5-11bb15cbe0fc",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "6ede8b4d-7242-4dc0-aa8b-eae0d820db89",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "f0275c72-3ccc-410e-8d57-adcd4ed5792d",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "8cf723d0-ee42-4b22-ad7d-f84dd48aa6ee",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "977c06bc-5038-4558-9ee0-62b16ffc0208",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I am fascinated by dates.",
+            "type": "attitude",
+            "order": 8,
+            "id": "15cb25bf-36f9-430b-9740-c5839f901d4e",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "c4221dc1-3de3-4444-96d6-220406cece18",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "df305bd5-e58e-4a8e-bf9c-76223056bb2a",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "8ce2e301-6a89-49e5-b5b9-5932c9a16a55",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "323c9731-624d-46c9-a8f3-99eac6f787a5",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "In a social group, I can easily keep track of several different people’s conversations.",
+            "type": "attitude",
+            "order": 9,
+            "id": "03da1102-3d22-464e-9e97-1f96835a1e3b",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "cce63cff-cb98-44f4-a33f-1b7b65c4c7e0",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "1c9d9fa1-f3b4-4c2e-ae37-2a23b3ea4e48",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "ba55032b-f3e4-4160-812a-c80dbaa1d62c",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "85fc06b2-c3da-458b-99ba-af7de3db559f",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find social situations easy.",
+            "type": "attitude",
+            "order": 10,
+            "id": "45b6dff2-b51e-4e5d-96c1-fb384992eb03",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "5a82893e-6fe8-42e1-ba46-fbf43c15bf6f",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "e9ae2e8d-07fd-45ed-87ef-f3d8cf466178",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "5bb82323-f508-41ba-b6b7-008ac878e67d",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "461d4a8c-d2c3-4ccf-94e3-a47137ac8c4d",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I tend to notice details that others do not.",
+            "type": "attitude",
+            "order": 11,
+            "id": "19ea2e0f-1b81-4695-82f9-0d3a0dfcb91d",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "a51565f1-5d83-4475-981e-c698d86b22b1",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "41751464-6f17-4343-b4f3-4e418d98688e",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "c2d8c77d-4b13-4f26-b21b-fe59d85343d2",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "03b009f1-ec0d-4dd0-bef4-30487da48edc",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I would rather go to a library than a party.",
+            "type": "attitude",
+            "order": 12,
+            "id": "677b0bd2-6f6e-4fc8-bab6-854a3141c430",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "8effa38f-be57-471d-81c5-1eef7accc874",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "755b3a99-d80b-41b4-a345-3a0bf3eaf641",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "d3b2aaa9-964d-4238-b3d9-2ce159ab15e8",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "f3e7d6d6-ed0e-4d5b-aaf3-c731129e8016",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find making up stories easy.",
+            "type": "attitude",
+            "order": 13,
+            "id": "c4f5de9d-c2a7-46c4-bc0b-d803f5a53674",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "8cbd0119-97e1-4a8e-b60d-a8bfb4610a29",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "c9ccdbea-3572-4194-8723-bdbb99aa7e03",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "d0a20a36-0024-46d0-b2bb-c0ec219e41a1",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "7ff9a3cd-461b-4790-854e-eb70a2c7c5d0",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find myself drawn more strongly to people than to things.",
+            "type": "attitude",
+            "order": 14,
+            "id": "051ba0aa-82fa-4923-8faf-15b5e6f702ce",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "1dc96f75-90c3-46ea-b87a-5ccbd1005024",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "2ed6b2a6-e31f-40e5-85f4-7587615a5b79",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "0fe5ecdc-db61-4267-9711-e6f4a0b5f556",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "aaa30f75-2308-4363-8c53-926a67bfe6e3",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I tend to have very strong interests which I get upset about if I can’t pursue.",
+            "type": "attitude",
+            "order": 15,
+            "id": "0c2252af-e5db-4e00-a0db-45bd7f8d4d05",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "c9f75080-cd3f-4782-8afd-eb257628dd5e",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "85121959-f42e-4beb-be68-59e7716cb648",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "e8c1aec9-6311-4619-abf4-0c3b04fab5e7",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "ba0d5813-c628-46ae-9178-de3bc814dde7",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I enjoy social chit-chat.",
+            "type": "attitude",
+            "order": 16,
+            "id": "5d0a5280-d403-4958-8a00-bfee04161d3a",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "ef762d83-8201-486b-b85b-d2acd2bbedaa",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "d6643961-1fd0-440a-839b-7368b10a0929",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "3de077c4-562a-460a-905f-cc647cece9b8",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "c19debfa-ae06-437b-935e-d91accad2a74",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "When I talk, it isn’t always easy for others to get a word in edgeways.",
+            "type": "attitude",
+            "order": 17,
+            "id": "27b3468a-da4b-4ee0-9233-fd5cf1ee2267",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "33c05dec-2ec5-4110-9b72-e885137db031",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "7d7a23f2-b335-4905-b934-de025fc2fb96",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "cbd14582-8fdf-4112-aa0c-66ee105838a0",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "c666283a-d378-4d29-80c0-3a97cb723fa4",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I am fascinated by numbers.",
+            "type": "attitude",
+            "order": 18,
+            "id": "90ed93ec-123d-4c6b-8a07-a13d45023dc1",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "26d9e847-d310-425c-81c8-aac2cb0f8597",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "ab9107cb-109f-478d-a555-a7db629d347f",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "a50f43d3-9742-49a2-814d-adc00414a0a3",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "dd2a07a6-1491-4c4a-bd43-996a07fecbe5",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "When I’m reading a story, I find it difficult to work out the characters’ intentions.",
+            "type": "attitude",
+            "order": 19,
+            "id": "65312fd7-3835-4024-ae1c-cdfa3d1d60ab",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "9ca8ee8e-1678-4d32-9ed1-a85b3cacdca4",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "d10ae419-7ba3-4a48-a841-4969523f16cf",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "6cca2ea2-78fc-4a7b-a978-a739f5a2f2db",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "de4eed02-7574-40d8-9ae2-e162a4543331",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I don’t particularly enjoy reading fiction.",
+            "type": "attitude",
+            "order": 20,
+            "id": "c24bd2f7-60de-4cb0-96ef-636eee26ce1c",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "435205d5-34a9-43b7-8e13-c2502be1c06a",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "d0a8d2e8-2700-41bb-90e8-10933c8566b7",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "61d91586-d526-44cd-ad07-b989c9c4f8ed",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "8b93cf3d-b989-4628-b4c1-f48d10889b66",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find it hard to make new friends.",
+            "type": "attitude",
+            "order": 21,
+            "id": "1921a04e-fd7c-474e-bc49-f46f12badf83",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "6ea7072b-b7fe-40cf-a14b-441576cf94a0",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "a34a27a6-5117-4faa-9916-17ca94fe5d5c",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "30cee5e0-ddbb-4f7a-8121-f09248033d2d",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "668f4aae-e7b1-4eba-8de6-de22cab41f9f",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I notice patterns in things all the time.",
+            "type": "attitude",
+            "order": 22,
+            "id": "70254cf3-9f26-4b34-bb01-9dc351d1ad94",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "d91182f6-6186-4524-b44c-c30f1340da00",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "5b249ad9-f012-4c2a-a37f-afa0b25e2ce4",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "4d3104d5-f79c-4fa1-8b6a-f44a2f2ed006",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "6b45e103-af31-4c1d-9fd5-e021ff38610f",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I would rather go to the theatre than a museum.",
+            "type": "attitude",
+            "order": 23,
+            "id": "c11ebff4-5b2b-4aab-a864-6a717139d7c9",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "52d741f0-ebd9-4185-98a9-6c91c1ef6583",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "4f95d139-9cdf-49e1-b51c-77eff3198f37",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "eea9ba22-eb5f-49ac-a34b-c7cea499f1c2",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "e208c17a-29f7-467a-819a-0fad29210dd8",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "It does not upset me if my daily routine is disturbed.",
+            "type": "attitude",
+            "order": 24,
+            "id": "3dca312e-f4ee-46b5-881b-e29e779bd2ee",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "de405e3b-ee41-4d68-b6bc-b1dafc4e9289",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "1f87511f-ce84-465b-8b44-ad14c186c2fe",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "32c2729e-76bc-495f-ba60-48c9cf52a405",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "3d9fb049-2dd8-4eed-9408-067c384c3ffc",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I frequently find that I don’t know how to keep a conversation going.",
+            "type": "attitude",
+            "order": 25,
+            "id": "fd14951f-8a0c-4b45-8006-af2c5769b104",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "a6790df9-e317-4b1f-85af-2d2b47afe88b",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "1d324148-9be8-4ba9-9ed0-113258e21904",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "1b7b7f25-327a-4848-910a-2036a20bb248",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "f5fe7666-4312-495d-838d-13ca8ddd64fe",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find it easy to 'read between the lines' when someone is talking to me.",
+            "type": "attitude",
+            "order": 26,
+            "id": "d6bdeb9a-a1df-4b14-80a9-9fc52aeae0d4",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "2a237061-2635-4ad5-b874-5399242722a5",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "d97b0aab-25c7-4721-bc60-8658c1c1cf62",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "9fa79f11-621b-4d0f-a669-b141ced6a002",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "bec8802a-4a74-4acf-ad08-b5884945ae54",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I usually concentrate more on the whole picture, rather than the small details.",
+            "type": "attitude",
+            "order": 27,
+            "id": "9e7c74b1-aecf-415f-9d7b-0c1ad321b82a",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "d24be11f-8589-4395-bf85-9b78eea33203",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "8970cd0a-2522-4313-ba51-91bcaf25a3ed",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "4094e033-b00a-4b21-b690-e4bac41776ac",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "7f7ccb25-26c4-4be6-ae0a-56ad678e2732",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I am not very good at remembering phone numbers.",
+            "type": "attitude",
+            "order": 28,
+            "id": "e52c4e2a-579f-44c5-bdb1-a26fb09193bb",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "fd853d69-be1f-4b19-88f6-939e20dfd5c9",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "defcf016-b181-45a5-afdc-38098c25e6b1",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "18525c4b-2315-4904-ad70-4dd6e8f0371d",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "633608ce-2849-468a-bf4e-39940df2ba51",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I don’t usually notice small changes in a situation, or a person’s appearance.",
+            "type": "attitude",
+            "order": 29,
+            "id": "406df10d-d3f9-48f1-9c00-8d72d14d9f5a",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "c0c8ed6b-30f8-482d-b9b9-2e8264142148",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "9d7bdae2-6f04-479b-aa36-d06332b96f53",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "fa94528b-2c3c-43a6-9bec-06b873ffee5d",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "7109c7b2-664b-41dd-bb74-9d20cc4ba7a2",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I know how to tell if someone listening to me is getting bored.",
+            "type": "attitude",
+            "order": 30,
+            "id": "9727f91b-ba02-48f9-9b38-d7fd7c6662a3",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "ee7ff570-5ea7-40fe-8d0d-da6423504f34",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "081fb744-d3da-4cf5-97b0-5bdd99cf7454",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "f769d47f-7c7a-4023-9cfb-a19d84e494f0",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "322bdaa7-a08c-44cd-890e-22bc0584383c",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find it easy to do more than one thing at once.",
+            "type": "attitude",
+            "order": 31,
+            "id": "34db0ea6-7584-443a-b7ff-351979be973f",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "7a0017b3-263c-4486-88ef-3fb1ba7e5c53",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "8cc05c4d-90ba-4d88-a1fb-16e7f4202e8f",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "35db7386-7586-4d2f-9974-57734135707d",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "3f4fb375-4bfb-4f29-83a5-145dd37521ab",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "When I talk on the phone, I’m not sure when it’s my turn to speak.",
+            "type": "attitude",
+            "order": 32,
+            "id": "ca7b0410-4214-4dd3-aad5-1cba5c7488d3",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "38b8f149-97ad-4fa3-8ea0-77e4abd6c495",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "f8b5d4be-02df-4ab9-889c-d2540b9ac33b",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "8ba7bcc9-752b-4047-b106-ff48612713ab",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "ef3f47e3-1426-4b6c-8dfd-1c890bf37443",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I enjoy doing things spontaneously.",
+            "type": "attitude",
+            "order": 33,
+            "id": "887af710-84b0-4461-90f1-56a8d543cbe2",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "c4a3cbca-f9e0-495c-8c96-b1dd4e26e19a",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "2dd140cf-68b2-43ac-8329-8406ec1f258c",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "fe277aeb-fd72-4942-9837-f66c797d4759",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "041de795-5107-4660-855e-8a316d461ee0",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I am often the last to understand the point of a joke.",
+            "type": "attitude",
+            "order": 34,
+            "id": "2efe34bc-e179-4c51-b0ad-eb72e8f9f7c2",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "6fdd268b-8c1b-47fd-b854-a2cfa283f7c3",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "bfa662fe-d46d-42ae-bf40-17c5b5ff4ae5",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "cb73cb34-1c64-4e72-8305-5870a51ccfa6",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "9df6ab1f-baee-42e7-b1d6-056df941de46",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find it easy to work out what someone is thinking or feeling just by looking at their face.",
+            "type": "attitude",
+            "order": 35,
+            "id": "86073459-8c3b-430b-b131-f8a4232161e3",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "8514cc6b-7fd5-4953-87dc-8357f398303e",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "5886fce1-9a54-4b75-9e65-a097116f6994",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "60e285e2-0a33-475f-91e4-540fa3d99bdf",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "89d8db6b-0487-4f0d-9b89-ef6eac460c5c",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "If there is an interruption, I can switch back to what I was doing very quickly.",
+            "type": "attitude",
+            "order": 36,
+            "id": "84757aa6-0f00-4997-8635-8c620afe8da5",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "307079d2-b59f-4279-a2c9-9f499c00b465",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "53671769-d99a-48d7-b886-e63722752fac",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "c8a21715-2f30-401b-8ef0-786f2ab6c7cf",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "7f305cd7-a7c3-44bf-9199-155abb19953d",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I am good at social chit- chat.",
+            "type": "attitude",
+            "order": 37,
+            "id": "fba57439-b14c-479f-88dc-1235b0265013",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "bbf5a36d-97fa-40b4-b75e-bd272c0ed4a7",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "003a5745-164f-4dee-9feb-dd7a12b1c294",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "87b41b6f-c631-46c3-8e44-741b9d9150e2",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "7d0da012-1424-4d69-b81f-a77a67a34f96",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "People often tell me that I keep going on and on about the same thing.",
+            "type": "attitude",
+            "order": 38,
+            "id": "7eb94a7b-2dfc-43d7-b88e-74b1bf03726c",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "bf950fdc-fc22-4034-a982-46cb9f00b7e6",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "0049adb2-f4bb-452e-b26b-a28cd6a889f2",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "cc1bec82-5b91-431b-8e12-75c42d32a5aa",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "e567fea1-16d5-4b42-acaa-b56ef6b0c6b2",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "When I was young, I used to enjoy playing games involving pretending with other children.",
+            "type": "attitude",
+            "order": 39,
+            "id": "4a9ac087-e909-461e-879d-453e7116ebe3",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "742be154-26f9-4b0c-86d5-d84067984237",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "299b646d-6c85-4a7a-b89d-08fcb817eabd",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "b3916b4d-6701-4d26-9330-87a88da55b36",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "d5df6062-075b-4c11-9612-87dfccea644c",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I like to collect information about categories of things (e.g., types of car, types of bird, types of train, types of plant, etc.).",
+            "type": "attitude",
+            "order": 40,
+            "id": "72b951d0-270c-48e6-bb57-5f8cd21db341",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "c5536ccf-bf29-42e5-ae21-26f7b6bdde91",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "bf7e561b-6451-41dc-b1dc-37c59a58cea8",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "f7bd8a73-2048-4f32-90c5-af33c362cfb7",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "006f9daf-a055-4da7-8d92-d9e3e5024276",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find it difficult to imagine what it would be like to be someone else.",
+            "type": "attitude",
+            "order": 41,
+            "id": "3336200f-fb9f-43f1-976e-ab66a7b17b1f",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "e908e39d-0ce9-411e-9d80-a3ec46d495dc",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "9532f25f-5923-4877-acaa-2e9ea18b5f27",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "382078ce-39f5-45bc-86f6-2716cd76beb5",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "f6000678-159e-4507-9a34-c461a0f96e10",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I like to plan any activities I participate in carefully.",
+            "type": "attitude",
+            "order": 42,
+            "id": "85475451-7b0c-466f-afad-dff96562d20b",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "f28e5486-3c66-45e3-af25-7618dba95229",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "d7f7f59f-21a8-45ce-9263-f8bf67266a08",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "88c21327-57d4-479f-aef9-bd76507d368d",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "b95eba19-533b-4e86-88d5-a19b9d0e8240",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I enjoy social occasions.",
+            "type": "attitude",
+            "order": 43,
+            "id": "415d3e97-0176-470d-8552-7b14fbd6c1b3",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "6dbaf78c-be0f-4954-b2de-4fa299956f05",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "c33cd084-505f-4501-9afc-40759caf12a6",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "7e708c3c-b852-40ae-b5e8-9dbb1c5e4797",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "73eedade-3965-4fa6-9b64-9fdc1572f570",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find it difficult to work out people’s intentions.",
+            "type": "attitude",
+            "order": 44,
+            "id": "281c0757-4aff-4429-98b4-bad4fe8d5d34",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "94f3c3be-751c-41f1-92fa-1daf9d4ee202",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "537f6f68-aac2-4483-9acf-64a950fc9ebd",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "c37222a8-96d7-4aaf-bbff-db05753daf06",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "f06237cb-9db1-4d20-8c27-5e9b81fa4932",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "New situations make me anxious.",
+            "type": "attitude",
+            "order": 45,
+            "id": "c2f387fa-16fa-46f8-a347-f9d1c988b3cc",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 1,
+                "id": "d7eaf258-d808-4c43-b009-4e9825b197de",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 1,
+                "id": "a491552a-3df7-4ac3-ab0e-f9a1089e890a",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 0,
+                "id": "c4375e5a-e562-4ab4-af16-5a84088f3f4c",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 0,
+                "id": "939b169d-987f-489d-8a04-a3166819e3d9",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I enjoy meeting new people.",
+            "type": "attitude",
+            "order": 46,
+            "id": "88cf835b-bf73-4782-9eb4-d1f25fb4f4e5",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "42a97bd9-cddf-4323-ad3c-5550eb609b65",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "3c5a561e-a9ca-4191-a9c6-f527f96ac08f",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "76fd8215-1dcb-4562-b16a-9b1a2805ce1f",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "8192caed-ffca-4989-ab18-b71e76cc4ff0",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I am a good diplomat.",
+            "type": "attitude",
+            "order": 47,
+            "id": "863456d5-b4ea-47ce-a389-8f16e565222b",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "6f7d9901-eb89-424e-ab8d-f59eaae4eef2",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "0189faa0-fa2e-41bb-927c-2053a899d657",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "8a2dddf3-bfe6-45cd-bc3a-b276489cff92",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "4a440ff3-61f2-4df4-8903-816547125dac",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I am not very good at remembering people’s date of birth.",
+            "type": "attitude",
+            "order": 48,
+            "id": "364d0932-5477-4258-a13d-7270113aa368",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "8e34b1ac-b13b-4f71-b899-8072b36b09c5",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "1ee59141-0132-408c-b153-89977e72650c",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "cbc133dd-c759-42af-8775-3d2f8cf4fa2c",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "6cec83a5-a86b-4203-bce6-3fbbae4cb7c2",
+                "order": 3
+              }
+            ]
+          },
+          {
+            "title": "I find it very easy to play games with children that involve pretending.",
+            "type": "attitude",
+            "order": 49,
+            "id": "006c4ba2-522a-4c63-b0ef-bfa28ac7f8ac",
+            "answers": [
+              {
+                "title": "Definitely agree",
+                "value": 0,
+                "id": "2e8cfe40-8b76-4c0e-9f4b-eac745eacafb",
+                "order": 0
+              },
+              {
+                "title": "Slightly agree",
+                "value": 0,
+                "id": "2189e000-f5ba-4697-92ab-926085f3a6c4",
+                "order": 1
+              },
+              {
+                "title": "Slightly disagree",
+                "value": 1,
+                "id": "468613d8-8d4f-4ce1-9395-804dd8b06602",
+                "order": 2
+              },
+              {
+                "title": "Definitely disagree",
+                "value": 1,
+                "id": "97f95199-f205-4f90-aef9-303819b26c99",
+                "order": 3
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

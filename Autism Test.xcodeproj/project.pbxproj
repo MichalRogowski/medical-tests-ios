@@ -3,12 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8272B3F226DAB1D000064A94 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B3F126DAB1D000064A94 /* AppState.swift */; };
+		8272B3F626DAB28500064A94 /* TestsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B3F526DAB28500064A94 /* TestsList.swift */; };
+		8272B3F826DAB32F00064A94 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B3F726DAB32F00064A94 /* DependencyInjector.swift */; };
+		8272B3FB26DAB3D600064A94 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B3FA26DAB3D600064A94 /* Store.swift */; };
+		8272B3FD26DAB3FF00064A94 /* InteractorsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B3FC26DAB3FF00064A94 /* InteractorsContainer.swift */; };
+		8272B40026DAB50D00064A94 /* TestSelectorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B3FF26DAB50D00064A94 /* TestSelectorInteractor.swift */; };
+		8272B40326DAB66C00064A94 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B40226DAB66C00064A94 /* TestModel.swift */; };
+		8272B40626DABAD900064A94 /* TestsDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B40526DABAD900064A94 /* TestsDBRepository.swift */; };
+		8272B40826DABAE900064A94 /* ResultsDBRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B40726DABAE900064A94 /* ResultsDBRepository.swift */; };
+		8272B40A26DABB2500064A94 /* LazyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B40926DABB2500064A94 /* LazyList.swift */; };
+		8272B40E26DAC47B00064A94 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B40D26DAC47B00064A94 /* AppEnvironment.swift */; };
+		8272B41126DAC69300064A94 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B41026DAC69300064A94 /* CoreDataHelpers.swift */; };
+		8272B41326DACCD200064A94 /* Models+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B41226DACCD200064A94 /* Models+CoreData.swift */; };
+		8272B41526DACCFD00064A94 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B41426DACCFD00064A94 /* ResultModel.swift */; };
+		8272B41826DAE02600064A94 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B41726DAE02600064A94 /* CancelBag.swift */; };
+		8272B41A26DAE06500064A94 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B41926DAE06500064A94 /* Loadable.swift */; };
+		8272B41C26DAE20F00064A94 /* NetworkingHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B41B26DAE20F00064A94 /* NetworkingHelpers.swift */; };
+		8272B41E26DAE55700064A94 /* JSONRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B41D26DAE55700064A94 /* JSONRepository.swift */; };
+		8272B42226DB730400064A94 /* Tests.json in Resources */ = {isa = PBXBuildFile; fileRef = 8272B42126DB730400064A94 /* Tests.json */; };
+		8272B42426DB796A00064A94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B42326DB796A00064A94 /* ContentView.swift */; };
+		8272B42626DB799600064A94 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B42526DB799600064A94 /* Helpers.swift */; };
+		8272B42926DB7A1900064A94 /* EnvironmentOverrides in Frameworks */ = {isa = PBXBuildFile; productRef = 8272B42826DB7A1900064A94 /* EnvironmentOverrides */; };
+		8272B42C26DB7EE400064A94 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B42B26DB7EE400064A94 /* ErrorView.swift */; };
+		8272B42E26DB7F3C00064A94 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B42D26DB7F3C00064A94 /* ActivityIndicatorView.swift */; };
 		82821DB226DAA6D2001DA227 /* Autism_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */; };
-		82821DB426DAA6D2001DA227 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DB326DAA6D2001DA227 /* ContentView.swift */; };
 		82821DB626DAA6D3001DA227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82821DB526DAA6D3001DA227 /* Assets.xcassets */; };
 		82821DB926DAA6D3001DA227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82821DB826DAA6D3001DA227 /* Preview Assets.xcassets */; };
 		82821DBB26DAA6D3001DA227 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DBA26DAA6D3001DA227 /* Persistence.swift */; };
@@ -35,9 +58,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8272B3F126DAB1D000064A94 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8272B3F526DAB28500064A94 /* TestsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsList.swift; sourceTree = "<group>"; };
+		8272B3F726DAB32F00064A94 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		8272B3FA26DAB3D600064A94 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		8272B3FC26DAB3FF00064A94 /* InteractorsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorsContainer.swift; sourceTree = "<group>"; };
+		8272B3FF26DAB50D00064A94 /* TestSelectorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSelectorInteractor.swift; sourceTree = "<group>"; };
+		8272B40226DAB66C00064A94 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		8272B40526DABAD900064A94 /* TestsDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestsDBRepository.swift; sourceTree = "<group>"; };
+		8272B40726DABAE900064A94 /* ResultsDBRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsDBRepository.swift; sourceTree = "<group>"; };
+		8272B40926DABB2500064A94 /* LazyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyList.swift; sourceTree = "<group>"; };
+		8272B40D26DAC47B00064A94 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		8272B41026DAC69300064A94 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
+		8272B41226DACCD200064A94 /* Models+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+CoreData.swift"; sourceTree = "<group>"; };
+		8272B41426DACCFD00064A94 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		8272B41726DAE02600064A94 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		8272B41926DAE06500064A94 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		8272B41B26DAE20F00064A94 /* NetworkingHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingHelpers.swift; sourceTree = "<group>"; };
+		8272B41D26DAE55700064A94 /* JSONRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONRepository.swift; sourceTree = "<group>"; };
+		8272B42126DB730400064A94 /* Tests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tests.json; sourceTree = "<group>"; };
+		8272B42326DB796A00064A94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8272B42526DB799600064A94 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		8272B42B26DB7EE400064A94 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		8272B42D26DB7F3C00064A94 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		82821DAE26DAA6D2001DA227 /* Autism Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_TestApp.swift; sourceTree = "<group>"; };
-		82821DB326DAA6D2001DA227 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		82821DB526DAA6D3001DA227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82821DB826DAA6D3001DA227 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		82821DBA26DAA6D3001DA227 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +94,7 @@
 		82821DCF26DAA6D3001DA227 /* Autism TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autism TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82821DD326DAA6D3001DA227 /* Autism_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_TestUITests.swift; sourceTree = "<group>"; };
 		82821DD526DAA6D3001DA227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82821DE126DAA6F8001DA227 /* Autism Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Autism Test.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8272B42926DB7A1900064A94 /* EnvironmentOverrides in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +123,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8272B3F026DAB1A400064A94 /* Injected */ = {
+			isa = PBXGroup;
+			children = (
+				8272B3F126DAB1D000064A94 /* AppState.swift */,
+				8272B3F726DAB32F00064A94 /* DependencyInjector.swift */,
+				8272B3FC26DAB3FF00064A94 /* InteractorsContainer.swift */,
+			);
+			path = Injected;
+			sourceTree = "<group>";
+		};
+		8272B3F326DAB27300064A94 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8272B42A26DB7ED300064A94 /* Components */,
+				8272B3F426DAB27600064A94 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8272B3F426DAB27600064A94 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8272B3F526DAB28500064A94 /* TestsList.swift */,
+				8272B42326DB796A00064A94 /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8272B3F926DAB3CB00064A94 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8272B40926DABB2500064A94 /* LazyList.swift */,
+				8272B3FA26DAB3D600064A94 /* Store.swift */,
+				8272B41726DAE02600064A94 /* CancelBag.swift */,
+				8272B41926DAE06500064A94 /* Loadable.swift */,
+				8272B41B26DAE20F00064A94 /* NetworkingHelpers.swift */,
+				8272B42526DB799600064A94 /* Helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8272B3FE26DAB48D00064A94 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				8272B3FF26DAB50D00064A94 /* TestSelectorInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		8272B40126DAB5A000064A94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8272B40226DAB66C00064A94 /* TestModel.swift */,
+				8272B41226DACCD200064A94 /* Models+CoreData.swift */,
+				8272B41426DACCFD00064A94 /* ResultModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8272B40426DABABD00064A94 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8272B40726DABAE900064A94 /* ResultsDBRepository.swift */,
+				8272B40526DABAD900064A94 /* TestsDBRepository.swift */,
+				8272B41D26DAE55700064A94 /* JSONRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		8272B40B26DABC2C00064A94 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				82821DBC26DAA6D3001DA227 /* Autism_Test.xcdatamodeld */,
+				82821DBA26DAA6D3001DA227 /* Persistence.swift */,
+				8272B41026DAC69300064A94 /* CoreDataHelpers.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		8272B40C26DAC44900064A94 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */,
+				8272B40D26DAC47B00064A94 /* AppEnvironment.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		8272B40F26DAC49100064A94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8272B42126DB730400064A94 /* Tests.json */,
+				82821DB526DAA6D3001DA227 /* Assets.xcassets */,
+				82821DE126DAA6F8001DA227 /* Autism Test.entitlements */,
+				82821DBF26DAA6D3001DA227 /* Info.plist */,
+				82821DB726DAA6D3001DA227 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8272B42A26DB7ED300064A94 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8272B42B26DB7EE400064A94 /* ErrorView.swift */,
+				8272B42D26DB7F3C00064A94 /* ActivityIndicatorView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		82821DA526DAA6D2001DA227 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +255,15 @@
 		82821DB026DAA6D2001DA227 /* Autism Test */ = {
 			isa = PBXGroup;
 			children = (
-				82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */,
-				82821DB326DAA6D2001DA227 /* ContentView.swift */,
-				82821DB526DAA6D3001DA227 /* Assets.xcassets */,
-				82821DBA26DAA6D3001DA227 /* Persistence.swift */,
-				82821DBF26DAA6D3001DA227 /* Info.plist */,
-				82821DBC26DAA6D3001DA227 /* Autism_Test.xcdatamodeld */,
-				82821DB726DAA6D3001DA227 /* Preview Content */,
+				8272B3F026DAB1A400064A94 /* Injected */,
+				8272B3FE26DAB48D00064A94 /* Interactors */,
+				8272B40126DAB5A000064A94 /* Models */,
+				8272B40B26DABC2C00064A94 /* Persistance */,
+				8272B40426DABABD00064A94 /* Repositories */,
+				8272B40F26DAC49100064A94 /* Resources */,
+				8272B40C26DAC44900064A94 /* System */,
+				8272B3F326DAB27300064A94 /* UI */,
+				8272B3F926DAB3CB00064A94 /* Utilities */,
 			);
 			path = "Autism Test";
 			sourceTree = "<group>";
@@ -152,6 +310,9 @@
 			dependencies = (
 			);
 			name = "Autism Test";
+			packageProductDependencies = (
+				8272B42826DB7A1900064A94 /* EnvironmentOverrides */,
+			);
 			productName = "Autism Test";
 			productReference = 82821DAE26DAA6D2001DA227 /* Autism Test.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +384,9 @@
 				Base,
 			);
 			mainGroup = 82821DA526DAA6D2001DA227;
+			packageReferences = (
+				8272B42726DB7A1900064A94 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */,
+			);
 			productRefGroup = 82821DAF26DAA6D2001DA227 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +403,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8272B42226DB730400064A94 /* Tests.json in Resources */,
 				82821DB926DAA6D3001DA227 /* Preview Assets.xcassets in Resources */,
 				82821DB626DAA6D3001DA227 /* Assets.xcassets in Resources */,
 			);
@@ -265,9 +430,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8272B41126DAC69300064A94 /* CoreDataHelpers.swift in Sources */,
 				82821DBB26DAA6D3001DA227 /* Persistence.swift in Sources */,
-				82821DB426DAA6D2001DA227 /* ContentView.swift in Sources */,
+				8272B41326DACCD200064A94 /* Models+CoreData.swift in Sources */,
+				8272B3F826DAB32F00064A94 /* DependencyInjector.swift in Sources */,
+				8272B42626DB799600064A94 /* Helpers.swift in Sources */,
+				8272B3F226DAB1D000064A94 /* AppState.swift in Sources */,
+				8272B40626DABAD900064A94 /* TestsDBRepository.swift in Sources */,
+				8272B42C26DB7EE400064A94 /* ErrorView.swift in Sources */,
+				8272B40826DABAE900064A94 /* ResultsDBRepository.swift in Sources */,
+				8272B40E26DAC47B00064A94 /* AppEnvironment.swift in Sources */,
+				8272B40A26DABB2500064A94 /* LazyList.swift in Sources */,
+				8272B41E26DAE55700064A94 /* JSONRepository.swift in Sources */,
+				8272B40326DAB66C00064A94 /* TestModel.swift in Sources */,
+				8272B3FD26DAB3FF00064A94 /* InteractorsContainer.swift in Sources */,
+				8272B42426DB796A00064A94 /* ContentView.swift in Sources */,
+				8272B41A26DAE06500064A94 /* Loadable.swift in Sources */,
+				8272B42E26DB7F3C00064A94 /* ActivityIndicatorView.swift in Sources */,
+				8272B3FB26DAB3D600064A94 /* Store.swift in Sources */,
+				8272B41C26DAE20F00064A94 /* NetworkingHelpers.swift in Sources */,
+				8272B3F626DAB28500064A94 /* TestsList.swift in Sources */,
+				8272B40026DAB50D00064A94 /* TestSelectorInteractor.swift in Sources */,
+				8272B41826DAE02600064A94 /* CancelBag.swift in Sources */,
 				82821DBE26DAA6D3001DA227 /* Autism_Test.xcdatamodeld in Sources */,
+				8272B41526DACCFD00064A94 /* ResultModel.swift in Sources */,
 				82821DB226DAA6D2001DA227 /* Autism_TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +611,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Autism Test/Resources/Autism Test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Autism Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Autism Test/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Autism Test/Info.plist";
+				INFOPLIST_FILE = "Autism Test/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -437,8 +624,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -447,11 +636,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Autism Test/Resources/Autism Test.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Autism Test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Autism Test/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 7KRMA2Y5X6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Autism Test/Info.plist";
+				INFOPLIST_FILE = "Autism Test/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,8 +649,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rogowskideveloper.Autism-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
@@ -588,6 +780,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8272B42726DB7A1900064A94 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/EnvironmentOverrides";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8272B42826DB7A1900064A94 /* EnvironmentOverrides */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8272B42726DB7A1900064A94 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */;
+			productName = EnvironmentOverrides;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		82821DBC26DAA6D3001DA227 /* Autism_Test.xcdatamodeld */ = {
