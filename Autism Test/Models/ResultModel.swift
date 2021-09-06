@@ -12,5 +12,5 @@ struct TestResult: Codable, Equatable {
     let date: Date
     let test: Test
     let id: UUID
-    let questions: [Test.Question]
+    var questions: [Test.Question]
 }

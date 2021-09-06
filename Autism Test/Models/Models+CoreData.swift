@@ -62,6 +62,7 @@ extension Test.Question {
         question.title = title
         question.order = Int32(order)
         question.id = id
+        question.type = type.rawValue
         let answers = answers.compactMap { $0.store(in: context) }
         question.answers = NSSet(array: answers)
         return question
@@ -139,6 +140,7 @@ extension Test {
         let questions = questions.compactMap { $0.store(in: context) }
         test.questions =  NSSet(array: questions)
         test.id = id
+        test.source = source
         return test
     }
 
@@ -155,12 +157,15 @@ extension Test {
         guard let uuid = managedObject.id else {
             return nil
         }
+        guard let source = managedObject.source else {
+            return nil
+        }
         let questions = (managedObject.questions ?? NSSet())
             .toArray(of: QuestionMO.self)
             .compactMap { Test.Question(managedObject: $0) }
             .sorted(by: { $0.order < $1.order} )
 
-        self.init(title: title, subtitle: subtitle, scoringKey: scoringKey, cutOff: Int(managedObject.cutOff), order: Int(managedObject.order), questions: questions, id: uuid)
+        self.init(title: title, subtitle: subtitle, scoringKey: scoringKey, cutOff: Int(managedObject.cutOff), order: Int(managedObject.order), source: source, questions: questions, id: uuid)
     }
 }
 

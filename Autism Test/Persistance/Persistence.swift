@@ -32,6 +32,11 @@ struct CoreDataStack: PersistentStore {
         if let url = version.dbFileURL(directory, domainMask) {
             let store = NSPersistentStoreDescription(url: url)
             container.persistentStoreDescriptions = [store]
+//            do {
+//                try container.persistentStoreCoordinator.destroyPersistentStore(at: url, ofType: NSSQLiteStoreType, options: nil)
+//            } catch {
+//                // Error Handling
+//            }
         }
         bgQueue.async { [weak isStoreLoaded, weak container] in
             container?.loadPersistentStores { (storeDescription, error) in

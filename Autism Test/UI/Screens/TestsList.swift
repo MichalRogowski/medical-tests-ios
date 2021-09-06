@@ -27,10 +27,11 @@ struct TestsList: View {
         GeometryReader { geometry in
             NavigationView {
                 self.content
-                    .navigationBarTitle("Autism Tests")
+                    .navigationBarTitle("Autism Spectrum", displayMode: .inline)
                     .animation(.easeOut(duration: 0.3))
             }
-            .navigationViewStyle(DoubleColumnNavigationViewStyle())
+            .accentColor(.purple)
+            .navigationViewStyle(StackNavigationViewStyle())
         }
         .onReceive(routingUpdate) { self.routingState = $0 }
     }
@@ -96,17 +97,20 @@ private extension TestsList {
                     tag: test.id,
                     selection: self.routingBinding.testID) {
                         Text(test.title)
+                            .font(.headline)
+                            .padding(2)
                     }
             }
+            .listStyle(InsetGroupedListStyle())
             .id(countries.count)
+            Spacer()
+            Text("Tests are available for free on https://psychology-tools.com/test")
+                .font(.caption)
         }.padding(.bottom)
     }
 
     func detailsView(test: Test) -> some View {
-        VStack {
-            Text(test.title)
-            Text(test.subtitle)            
-        }
+        TestIntro(test: test)            
     }
 }
 

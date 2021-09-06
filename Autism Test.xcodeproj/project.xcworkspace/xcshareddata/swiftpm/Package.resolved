@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EnvironmentOverrides",
+        "repositoryURL": "https://github.com/nalexn/EnvironmentOverrides",
+        "state": {
+          "branch": null,
+          "revision": "d0b763a678d254e51c74c48e83119bd063250ba3",
+          "version": "0.0.4"
+        }
+      },
+      {
+        "package": "Lottie",
+        "repositoryURL": "https://github.com/airbnb/lottie-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "79a0b70547f7c40ea54c67487f935fa2f2eaaadc",
+          "version": "3.2.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

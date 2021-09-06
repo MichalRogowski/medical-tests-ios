@@ -24,6 +24,8 @@ extension AppState {
 extension AppState {
     struct ViewRouting: Equatable {
         var testsList = TestsList.Routing()
+        var testIntro = TestIntro.Routing()
+        var questions = QuestionsView.Routing()
     }
 }
 

@@ -7,6 +7,7 @@
         "title": "Symptoms of Autism Spectrum Disorders - Adult",
         "subtitle": "The Autism Spectrum Quotient for Adults is a 50-question self-report instrument designed to screen ages 16 years and older for symptoms of autism. A scoring key is also included. This instrument comes from the United Kingdom, where age 16 years is more readily considered an adult.",
         "scoringKey": "Responses that score 1 point are marked. Other responses score 0. For total score, sum all items. Minimum score possible is 0, Maximum score possible is 50. A score of 32 or above is highly predictive of Autism Spectrum disorders in adults.",
+        "source": "Baron-Cohen, S., Wheelwright, S., Skinner, R., Martin, J., & Clubley, E. (2001). The Autism-Spectrum Quotient (AQ): Evidence from Asperger syndrome/high-functioning autism, males and females, scientists and mathematicians. Journal of Autism and Developmental Disorders, 31, 5-17.",
         "cutOff": 32,
         "order": 0,
         "id":"f2833c04-08e9-49d8-a09b-9bae4f6c9020",

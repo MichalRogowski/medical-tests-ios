@@ -31,6 +31,14 @@
 		8272B42926DB7A1900064A94 /* EnvironmentOverrides in Frameworks */ = {isa = PBXBuildFile; productRef = 8272B42826DB7A1900064A94 /* EnvironmentOverrides */; };
 		8272B42C26DB7EE400064A94 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B42B26DB7EE400064A94 /* ErrorView.swift */; };
 		8272B42E26DB7F3C00064A94 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B42D26DB7F3C00064A94 /* ActivityIndicatorView.swift */; };
+		8272B43226DB899400064A94 /* TestIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B43126DB899400064A94 /* TestIntro.swift */; };
+		8272B43526DBBE4000064A94 /* AttitudeQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B43426DBBE4000064A94 /* AttitudeQuestion.swift */; };
+		8272B43726DBBF6B00064A94 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B43626DBBF6B00064A94 /* QuestionsView.swift */; };
+		8272B43A26DBCDE600064A94 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 8272B43926DBCDE600064A94 /* Lottie */; };
+		8272B43C26DBCE1800064A94 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B43B26DBCE1800064A94 /* Lottie.swift */; };
+		8272B43F26DBCE6E00064A94 /* confirmation-tick.json in Resources */ = {isa = PBXBuildFile; fileRef = 8272B43E26DBCE6E00064A94 /* confirmation-tick.json */; };
+		8272B44126DBD1EB00064A94 /* SingleSelectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B44026DBD1EB00064A94 /* SingleSelectRow.swift */; };
+		8272B44526DD1A9500064A94 /* RoundedRectangleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8272B44426DD1A9500064A94 /* RoundedRectangleButtonStyle.swift */; };
 		82821DB226DAA6D2001DA227 /* Autism_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */; };
 		82821DB626DAA6D3001DA227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82821DB526DAA6D3001DA227 /* Assets.xcassets */; };
 		82821DB926DAA6D3001DA227 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82821DB826DAA6D3001DA227 /* Preview Assets.xcassets */; };
@@ -81,6 +89,13 @@
 		8272B42526DB799600064A94 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		8272B42B26DB7EE400064A94 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		8272B42D26DB7F3C00064A94 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		8272B43126DB899400064A94 /* TestIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIntro.swift; sourceTree = "<group>"; };
+		8272B43426DBBE4000064A94 /* AttitudeQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttitudeQuestion.swift; sourceTree = "<group>"; };
+		8272B43626DBBF6B00064A94 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		8272B43B26DBCE1800064A94 /* Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		8272B43E26DBCE6E00064A94 /* confirmation-tick.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "confirmation-tick.json"; sourceTree = "<group>"; };
+		8272B44026DBD1EB00064A94 /* SingleSelectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSelectRow.swift; sourceTree = "<group>"; };
+		8272B44426DD1A9500064A94 /* RoundedRectangleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleButtonStyle.swift; sourceTree = "<group>"; };
 		82821DAE26DAA6D2001DA227 /* Autism Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autism Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82821DB126DAA6D2001DA227 /* Autism_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autism_TestApp.swift; sourceTree = "<group>"; };
 		82821DB526DAA6D3001DA227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +118,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8272B42926DB7A1900064A94 /* EnvironmentOverrides in Frameworks */,
+				8272B43A26DBCDE600064A94 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +161,10 @@
 		8272B3F426DAB27600064A94 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				8272B43326DBBE3200064A94 /* Question */,
 				8272B3F526DAB28500064A94 /* TestsList.swift */,
 				8272B42326DB796A00064A94 /* ContentView.swift */,
+				8272B43126DB899400064A94 /* TestIntro.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -214,6 +232,7 @@
 		8272B40F26DAC49100064A94 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8272B43D26DBCE5600064A94 /* Lotties */,
 				8272B42126DB730400064A94 /* Tests.json */,
 				82821DB526DAA6D3001DA227 /* Assets.xcassets */,
 				82821DE126DAA6F8001DA227 /* Autism Test.entitlements */,
@@ -228,8 +247,28 @@
 			children = (
 				8272B42B26DB7EE400064A94 /* ErrorView.swift */,
 				8272B42D26DB7F3C00064A94 /* ActivityIndicatorView.swift */,
+				8272B43B26DBCE1800064A94 /* Lottie.swift */,
+				8272B44026DBD1EB00064A94 /* SingleSelectRow.swift */,
+				8272B44426DD1A9500064A94 /* RoundedRectangleButtonStyle.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		8272B43326DBBE3200064A94 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				8272B43426DBBE4000064A94 /* AttitudeQuestion.swift */,
+				8272B43626DBBF6B00064A94 /* QuestionsView.swift */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		8272B43D26DBCE5600064A94 /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				8272B43E26DBCE6E00064A94 /* confirmation-tick.json */,
+			);
+			path = Lotties;
 			sourceTree = "<group>";
 		};
 		82821DA526DAA6D2001DA227 = {
@@ -312,6 +351,7 @@
 			name = "Autism Test";
 			packageProductDependencies = (
 				8272B42826DB7A1900064A94 /* EnvironmentOverrides */,
+				8272B43926DBCDE600064A94 /* Lottie */,
 			);
 			productName = "Autism Test";
 			productReference = 82821DAE26DAA6D2001DA227 /* Autism Test.app */;
@@ -386,6 +426,7 @@
 			mainGroup = 82821DA526DAA6D2001DA227;
 			packageReferences = (
 				8272B42726DB7A1900064A94 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */,
+				8272B43826DBCDE600064A94 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = 82821DAF26DAA6D2001DA227 /* Products */;
 			projectDirPath = "";
@@ -406,6 +447,7 @@
 				8272B42226DB730400064A94 /* Tests.json in Resources */,
 				82821DB926DAA6D3001DA227 /* Preview Assets.xcassets in Resources */,
 				82821DB626DAA6D3001DA227 /* Assets.xcassets in Resources */,
+				8272B43F26DBCE6E00064A94 /* confirmation-tick.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,9 +480,13 @@
 				8272B3F226DAB1D000064A94 /* AppState.swift in Sources */,
 				8272B40626DABAD900064A94 /* TestsDBRepository.swift in Sources */,
 				8272B42C26DB7EE400064A94 /* ErrorView.swift in Sources */,
+				8272B43726DBBF6B00064A94 /* QuestionsView.swift in Sources */,
+				8272B43526DBBE4000064A94 /* AttitudeQuestion.swift in Sources */,
 				8272B40826DABAE900064A94 /* ResultsDBRepository.swift in Sources */,
 				8272B40E26DAC47B00064A94 /* AppEnvironment.swift in Sources */,
+				8272B43226DB899400064A94 /* TestIntro.swift in Sources */,
 				8272B40A26DABB2500064A94 /* LazyList.swift in Sources */,
+				8272B44126DBD1EB00064A94 /* SingleSelectRow.swift in Sources */,
 				8272B41E26DAE55700064A94 /* JSONRepository.swift in Sources */,
 				8272B40326DAB66C00064A94 /* TestModel.swift in Sources */,
 				8272B3FD26DAB3FF00064A94 /* InteractorsContainer.swift in Sources */,
@@ -450,11 +496,13 @@
 				8272B3FB26DAB3D600064A94 /* Store.swift in Sources */,
 				8272B41C26DAE20F00064A94 /* NetworkingHelpers.swift in Sources */,
 				8272B3F626DAB28500064A94 /* TestsList.swift in Sources */,
+				8272B44526DD1A9500064A94 /* RoundedRectangleButtonStyle.swift in Sources */,
 				8272B40026DAB50D00064A94 /* TestSelectorInteractor.swift in Sources */,
 				8272B41826DAE02600064A94 /* CancelBag.swift in Sources */,
 				82821DBE26DAA6D3001DA227 /* Autism_Test.xcdatamodeld in Sources */,
 				8272B41526DACCFD00064A94 /* ResultModel.swift in Sources */,
 				82821DB226DAA6D2001DA227 /* Autism_TestApp.swift in Sources */,
+				8272B43C26DBCE1800064A94 /* Lottie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -790,6 +838,14 @@
 				minimumVersion = 0.0.4;
 			};
 		};
+		8272B43826DBCDE600064A94 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -797,6 +853,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8272B42726DB7A1900064A94 /* XCRemoteSwiftPackageReference "EnvironmentOverrides" */;
 			productName = EnvironmentOverrides;
+		};
+		8272B43926DBCDE600064A94 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8272B43826DBCDE600064A94 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 

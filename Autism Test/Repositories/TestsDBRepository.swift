@@ -42,7 +42,9 @@ struct RealTestDBRepository: TestsDBRepository {
             .fetch(fetchRequest) {
                 Category(managedObject: $0)?.tests
             }
-            .tryMap { try $0.element(at: 0).lazyList }
+            .tryMap {
+                try $0.element(at: 0).lazyList                
+            }
             .eraseToAnyPublisher()
     }
 }

@@ -19,6 +19,7 @@ struct Test: Codable, Equatable, Identifiable {
     let scoringKey: String
     let cutOff: Int
     let order: Int
+    let source: String
     let questions: [Test.Question]
     let id: UUID
 }

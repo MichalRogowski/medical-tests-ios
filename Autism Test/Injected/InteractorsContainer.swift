@@ -5,4 +5,16 @@
 //  Created by Michał Rogowski on 28/08/2021.
 //
 
-import Foundation
+extension DIContainer {
+    struct Interactors {
+        let testSelectorInteractor: TestSelectorInteractor
+
+        init(testSelectorInteractor: TestSelectorInteractor) {
+            self.testSelectorInteractor = testSelectorInteractor
+        }
+
+        static var stub: Self {
+            .init(testSelectorInteractor: StubTestSelectorInteractor())
+        }
+    }
+}
